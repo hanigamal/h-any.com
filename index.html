@@ -682,47 +682,166 @@
     </div>
   </footer>
 
-  <!-- Interactive Dual Resume Modal -->
+  <!-- Interactive Dual Resume Modal Hub -->
   <div class="modal-backdrop" id="resume-modal" aria-hidden="true">
     <div class="glass-card resume-modal-card" role="dialog" aria-labelledby="modal-title">
       <button class="modal-close-btn" id="close-resume-modal" aria-label="Close Modal">&times;</button>
       
       <div class="modal-header">
         <span class="section-subtitle">Executive Resume Hub</span>
-        <h2 id="modal-title" class="modal-title">Select Your Engagement Focus</h2>
-        <p class="modal-desc">Choose the tailored executive profile that best aligns with your organizational needs in the Egyptian & regional market.</p>
+        <h2 id="modal-title" class="modal-title">Executive Profiles & Advisory Services</h2>
+        <p class="modal-desc">Toggle between full-time executive leadership and fractional advisory profiles.</p>
+        
+        <!-- Tab Controls -->
+        <div class="resume-tabs" role="tablist" aria-label="Resume Profiles">
+          <button class="resume-tab-btn active" id="tab-exec" role="tab" aria-selected="true" aria-controls="pane-exec">
+            <span class="tab-icon">💼</span>
+            <span>Chief Technology Officer & CISO</span>
+            <span class="badge-pill">Full-Time</span>
+          </button>
+          <button class="resume-tab-btn" id="tab-advisory" role="tab" aria-selected="false" aria-controls="pane-advisory">
+            <span class="tab-icon">🚀</span>
+            <span>Fractional CTO & Strategic Advisor</span>
+            <span class="badge-pill advisory-pill">Advisory</span>
+          </button>
+        </div>
       </div>
 
-      <div class="resume-grid">
-        <!-- Option 1: Executive CTO / CISO -->
-        <div class="resume-card">
-          <div class="resume-badge">Full-Time Executive</div>
-          <h3 class="resume-card-title">Chief Technology Officer & CISO</h3>
-          <p class="resume-card-desc">Designed for hiring committees, boards, and CEOs seeking full-time executive leadership to scale engineering teams, achieve PCI-DSS Level 1 compliance, and govern zero-trust cybersecurity.</p>
-          <ul class="resume-features">
-            <li>✓ 20+ Years FinTech & System Architecture</li>
-            <li>✓ PCI-DSS Level 1 Audit & Certification Lead</li>
-            <li>✓ Engineering Team Leadership (40+ Engineers)</li>
-          </ul>
-          <div class="resume-card-actions">
-            <a href="Hani_Gamal_Executive_CTO_CISO_Resume.md" target="_blank" class="btn btn-primary btn-sm">View Executive Resume</a>
+      <!-- Tab Panels Container -->
+      <div class="resume-tabs-body">
+        
+        <!-- Pane 1: Executive CTO & CISO -->
+        <div class="resume-preview-pane active" id="pane-exec" role="tabpanel" aria-labelledby="tab-exec">
+          <div class="resume-pane-toolbar">
+            <div class="pane-meta">
+              <h3>Hani Gamal — CTO & CISO</h3>
+              <p>20+ Years FinTech | PCI-DSS Level 1 | Zero-Trust Architecture | Enterprise Scaling</p>
+            </div>
+            <div class="pane-actions">
+              <a href="Hani_Gamal_Executive_CTO_CISO_Resume.pdf" download target="_blank" class="btn btn-primary btn-sm">
+                <span>Download PDF</span> 📥
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-scroll-content">
+            <div class="resume-section-box">
+              <h4>Executive Profile</h4>
+              <p>Visionary, business-aligned Technology Executive (CTO & CISO) with <strong>20+ years of experience</strong> building high-throughput payment infrastructures, securing enterprise cloud environments, and driving digital transformation in the Egyptian and regional MENA financial markets.</p>
+              <p>Co-Founder of <strong>PayCore Egypt</strong>, responsible for spearheading end-to-end technical architecture, PCI-DSS Level 1 compliance certification, and multi-cloud resilience of core payment switches. Expert in bridging complex technical execution with board-level business goals, zero-trust cybersecurity, and practical AI automation.</p>
+            </div>
+
+            <div class="resume-section-box">
+              <h4>Core Competencies & Domain Expertise</h4>
+              <div class="competency-grid">
+                <div class="comp-item">
+                  <strong>Executive Leadership:</strong> Technical Strategy, Board & Regulatory Advisory, Team Engineering (40+ Engineers), P&L Oversight.
+                </div>
+                <div class="comp-item">
+                  <strong>FinTech Architecture:</strong> ISO 8583, EMV Chip & Contactless, High-Frequency Switches, POS & Acquiring, Digital Wallets.
+                </div>
+                <div class="comp-item">
+                  <strong>Cybersecurity & Compliance:</strong> PCI-DSS Level 1 Certification Lead, CISO Governance, Zero-Trust, SOC Ops, ISO 27001.
+                </div>
+                <div class="comp-item">
+                  <strong>Cloud & Distributed Systems:</strong> AWS/GCP/Azure Multi-Cloud Redundancy, Kubernetes, Microservices, C++/Go/Node.js backends.
+                </div>
+              </div>
+            </div>
+
+            <div class="resume-section-box">
+              <h4>Professional Experience Highlight</h4>
+              <div class="exp-item">
+                <div class="exp-header">
+                  <div>
+                    <h5 class="exp-title">PayCore Egypt — Cairo, Egypt</h5>
+                    <span class="exp-role">Co-Founder, CTO & CISO</span>
+                  </div>
+                  <span class="exp-date">2018 – Present</span>
+                </div>
+                <ul class="resume-bullets">
+                  <li><strong>FinTech Scale:</strong> Deployed high-availability payment switches capable of processing millions of daily transactions with 99.999% uptime.</li>
+                  <li><strong>PCI-DSS Level 1:</strong> Achieved and maintained strict PCI-DSS Level 1 compliance certification across hybrid cloud and on-premise infrastructure.</li>
+                  <li><strong>Cybersecurity Governance:</strong> Established enterprise CISO framework, zero-trust network policies, SOC monitoring, and incident response strategies.</li>
+                  <li><strong>AI Innovation:</strong> Introduced AI-driven transaction monitoring and anomaly detection, reducing fraudulent payment attempts by 35%.</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
 
-        <!-- Option 2: Fractional CTO & Advisory -->
-        <div class="resume-card">
-          <div class="resume-badge advisory-badge">Advisory & Consulting</div>
-          <h3 class="resume-card-title">Fractional CTO & Strategic Advisor</h3>
-          <p class="resume-card-desc">Tailored for VCs, tech scale-ups, and banking institutions requiring high-impact advisory, PCI-DSS audit readiness sprints, cloud architecture refactoring, or AI workflow integration.</p>
-          <ul class="resume-features">
-            <li>✓ PCI-DSS Audit & Compliance Sprints</li>
-            <li>✓ Tech Due Diligence & Architecture Audits</li>
-            <li>✓ AI Agent & Workflow Automation Consulting</li>
-          </ul>
-          <div class="resume-card-actions">
-            <a href="Hani_Gamal_Fractional_CTO_Advisory_Resume.md" target="_blank" class="btn btn-secondary btn-sm">View Advisory Profile</a>
+        <!-- Pane 2: Fractional CTO & Advisory -->
+        <div class="resume-preview-pane" id="pane-advisory" role="tabpanel" aria-labelledby="tab-advisory">
+          <div class="resume-pane-toolbar">
+            <div class="pane-meta">
+              <h3>Hani Gamal — Fractional CTO & Advisor</h3>
+              <p>PCI-DSS Sprints | Tech Due Diligence | Cloud Refactoring | AI Workflow Integration</p>
+            </div>
+            <div class="pane-actions">
+              <a href="Hani_Gamal_Fractional_CTO_Advisory_Resume.pdf" download target="_blank" class="btn btn-secondary btn-sm">
+                <span>Download PDF</span> 📥
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-scroll-content">
+            <div class="resume-section-box">
+              <h4>Advisory Overview</h4>
+              <p>High-impact <strong>Fractional CTO & Strategic Security Advisor</strong> with 20+ years of battle-tested experience in FinTech, PCI-DSS compliance, and zero-trust cybersecurity.</p>
+              <p>Providing high-growth startups, scale-ups, banks, and venture funds with expert technical guidance, emergency security remediation, and high-ROI architectural leadership without full-time executive overhead.</p>
+            </div>
+
+            <div class="resume-section-box">
+              <h4>Advisory & Consulting Services</h4>
+              <div class="services-list">
+                <div class="service-card">
+                  <div class="service-num">01</div>
+                  <div>
+                    <h5>PCI-DSS Level 1 Audit & Certification Readiness</h5>
+                    <p>End-to-end evaluation of payment pipelines, network segmentation, encryption (HSM/KMS), and tokenization guaranteeing audit passes with zero critical findings.</p>
+                  </div>
+                </div>
+                <div class="service-card">
+                  <div class="service-num">02</div>
+                  <div>
+                    <h5>Fractional CTO Leadership & Technical Due Diligence</h5>
+                    <p>Interim technical leadership for startups preparing for Series A/B funding, vendor evaluation, code & architecture reviews for VCs and Private Equity firms.</p>
+                  </div>
+                </div>
+                <div class="service-card">
+                  <div class="service-num">03</div>
+                  <div>
+                    <h5>Modern Cloud-Native & AI Workflow Transformation</h5>
+                    <p>Migrating fragile setups to resilient multi-cloud Kubernetes architectures and integrating practical AI agent workflows into enterprise operations.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="resume-section-box">
+              <h4>Flexible Engagement Models</h4>
+              <div class="models-grid">
+                <div class="model-item">
+                  <span class="model-badge">Retainer</span>
+                  <h5>Fractional CTO / CISO</h5>
+                  <p>10 – 20 hours/week dedicated leadership</p>
+                </div>
+                <div class="model-item">
+                  <span class="model-badge">Fixed Scope</span>
+                  <h5>PCI-DSS Audit Sprint</h5>
+                  <p>4-to-6 week audit readiness sprint</p>
+                </div>
+                <div class="model-item">
+                  <span class="model-badge">Advisory</span>
+                  <h5>Board & Tech Due Diligence</h5>
+                  <p>Strategic quarterly guidance</p>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
+
       </div>
     </div>
   </div>

@@ -242,8 +242,10 @@ document.addEventListener('DOMContentLoaded', () => {
         console.error('Failed to copy text: ', err);
       });
     });
+  }
+
   // ==========================================================================
-  // 7. Interactive Resume Hub Modal Logic
+  // 7. Interactive Resume Hub Modal & Tab Switching Logic
   // ==========================================================================
   const modalBackdrop = document.getElementById('resume-modal');
   const openResumeNav = document.getElementById('open-resume-nav');
@@ -282,6 +284,34 @@ document.addEventListener('DOMContentLoaded', () => {
       if (e.key === 'Escape' && modalBackdrop.classList.contains('active')) {
         hideResumeModal();
       }
+    });
+  }
+
+  // Resume Hub Modal Tab Switching
+  const tabExec = document.getElementById('tab-exec');
+  const tabAdvisory = document.getElementById('tab-advisory');
+  const paneExec = document.getElementById('pane-exec');
+  const paneAdvisory = document.getElementById('pane-advisory');
+
+  function switchResumeTab(activeTab, activePane, inactiveTab, inactivePane) {
+    if (!activeTab || !activePane || !inactiveTab || !inactivePane) return;
+    
+    activeTab.classList.add('active');
+    activeTab.setAttribute('aria-selected', 'true');
+    activePane.classList.add('active');
+    
+    inactiveTab.classList.remove('active');
+    inactiveTab.setAttribute('aria-selected', 'false');
+    inactivePane.classList.remove('active');
+  }
+
+  if (tabExec && tabAdvisory && paneExec && paneAdvisory) {
+    tabExec.addEventListener('click', () => {
+      switchResumeTab(tabExec, paneExec, tabAdvisory, paneAdvisory);
+    });
+
+    tabAdvisory.addEventListener('click', () => {
+      switchResumeTab(tabAdvisory, paneAdvisory, tabExec, paneExec);
     });
   }
 });
