@@ -15,6 +15,7 @@ Hani Gamal (also known as *The Archipoeta*) is a technology leader, Co-Founder, 
 - **Cybersecurity & Compliance:** PCI-DSS Level 1 certification, CISO management, zero-trust network design, ISO 27001 compliance, penetration testing, and security hardening.
 - **Cloud-Native & System Engineering:** Distributed microservices, Kubernetes, Docker, multi-cloud redundancy (AWS, GCP, Azure), Linux systems engineering, and low-latency API design.
 - **AI & Automation:** Customizing LLM pipelines, autonomous agent workflows, practical AI integration for FinTech automation, and real-time fraud detection systems.
+- **Online Programming Lessons & Mentorship:** Direct 1-on-1 and small group cohort tutoring in Python, Web Logic, Data Structures, Algorithms, C++, Java, and Computer Science fundamentals for Kids/Teens and University CS Students in Egypt.
 
 ---
 
