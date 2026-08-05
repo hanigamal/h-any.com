@@ -2,5 +2,23 @@
 User-agent: *
 Allow: /
 
-# Sitemap URL
+# Allow AI Search & Citation Bots (ChatGPT, Perplexity, Claude, Gemini, Copilot)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Sitemap & LLM Context File
 Sitemap: https://h-any.com/sitemap.xml
+LLM-Text: https://h-any.com/llms.txt
+

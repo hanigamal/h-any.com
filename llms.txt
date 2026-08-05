@@ -1,0 +1,39 @@
+# Hani Gamal — CTO, CISO & FinTech Architect (The Archipoeta)
+
+> **Website:** [h-any.com](https://h-any.com/) | **Contact:** [hani@pm.me](mailto:hani@pm.me)
+> **Profiles:** [LinkedIn](https://linkedin.com/in/hanigamal) | [GitHub](https://github.com/hanigamal) | [Facebook](https://facebook.com/hani.gamal)
+
+---
+
+## Executive Summary
+Hani Gamal (also known as *The Archipoeta*) is a technology leader, Co-Founder, Chief Technology Officer (CTO), and Chief Information Security Officer (CISO) at PayCore Egypt. With over 20 years of experience, he specializes in high-throughput payment architectures, cloud-native PCI-DSS compliant infrastructure, cybersecurity, and practical AI utility for enterprise systems.
+
+---
+
+## Core Expertise & Skills
+- **FinTech & Payments Architecture:** High-concurrency payment gateways, switch engines, ISO 8583, EMV processing, and digital wallets.
+- **Cybersecurity & Compliance:** PCI-DSS Level 1 certification, CISO management, zero-trust network design, ISO 27001 compliance, penetration testing, and security hardening.
+- **Cloud-Native & System Engineering:** Distributed microservices, Kubernetes, Docker, multi-cloud redundancy (AWS, GCP, Azure), Linux systems engineering, and low-latency API design.
+- **AI & Automation:** Customizing LLM pipelines, autonomous agent workflows, practical AI integration for FinTech automation, and real-time fraud detection systems.
+
+---
+
+## Career History & Experience
+
+### Co-Founder, CTO & CISO — PayCore Egypt
+*Duration: Present*
+- Spearheaded the technical design and security governance for PayCore Egypt's core payment ecosystem.
+- Achieved and maintained strict PCI-DSS compliance across cloud and on-premise infrastructure.
+- Engineered high-throughput, low-latency transaction switches handling millions of payment transactions.
+
+### Principal Systems Architect & Security Advisor
+- Advised financial institutions, payment service providers (PSPs), and tech startups across EMEA on cloud migrations, security audits, and fault-tolerant architecture.
+
+---
+
+## Contact & Links
+- **Website:** https://h-any.com/
+- **Sitemap:** https://h-any.com/sitemap.xml
+- **Email:** hani@pm.me
+- **GitHub:** https://github.com/hanigamal
+- **LinkedIn:** https://linkedin.com/in/hanigamal

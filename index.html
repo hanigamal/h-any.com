@@ -43,26 +43,62 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Hani Gamal",
-    "alternateName": "The Archipoeta",
-    "jobTitle": "Co-Founder, Chief Technology Officer & CISO",
-    "worksFor": {
-      "@type": "Organization",
-      "name": "PayCore Egypt",
-      "url": "https://h-any.com"
-    },
-    "url": "https://h-any.com/",
-    "image": "https://s.gravatar.com/avatar/85c4a5d72f408770e8ed4e35da5502de?s=300",
-    "sameAs": [
-      "https://linkedin.com/in/hanigamal",
-      "https://github.com/hanigamal",
-      "https://facebook.com/hani.gamal",
-      "https://tumblr.com/hanigamal",
-      "https://uaestories.com/hani-gamal-driven-by-ambition/"
-    ],
-    "email": "mailto:hani@pm.me",
-    "description": "Technology Guru, CTO, CISO, and Problem Solver with over 20 years of experience architecting cloud-native, PCI-DSS compliant FinTech systems and customizing AI for real-life business utility."
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://h-any.com/#person",
+        "name": "Hani Gamal",
+        "alternateName": "The Archipoeta",
+        "jobTitle": "Co-Founder, Chief Technology Officer & CISO",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "PayCore Egypt",
+          "url": "https://h-any.com"
+        },
+        "url": "https://h-any.com/",
+        "image": "https://s.gravatar.com/avatar/85c4a5d72f408770e8ed4e35da5502de?s=300",
+        "sameAs": [
+          "https://linkedin.com/in/hanigamal",
+          "https://github.com/hanigamal",
+          "https://facebook.com/hani.gamal",
+          "https://tumblr.com/hanigamal",
+          "https://uaestories.com/hani-gamal-driven-by-ambition/"
+        ],
+        "email": "mailto:hani@pm.me",
+        "description": "Technology Guru, CTO, CISO, and Problem Solver with over 20 years of experience architecting cloud-native, PCI-DSS compliant FinTech systems and customizing AI for real-life business utility.",
+        "knowsAbout": [
+          "FinTech Architecture",
+          "PCI-DSS Compliance",
+          "Cybersecurity & CISO Governance",
+          "Cloud-Native Systems",
+          "Artificial Intelligence Utility & LLM Integration",
+          "ISO 8583 Payment Protocols",
+          "High-Throughput Distributed Microservices"
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://h-any.com/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Who is Hani Gamal (The Archipoeta)?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Hani Gamal (also known as The Archipoeta) is a veteran technology leader, Co-founder, CTO, and CISO at PayCore Egypt with over 20 years of experience specializing in FinTech payment architecture, PCI-DSS compliance, cybersecurity, and practical AI utility."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are Hani Gamal's key areas of expertise?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Hani Gamal specializes in cloud-native payment gateway design, PCI-DSS Level 1 compliance infrastructure, executive cybersecurity management (CISO), zero-trust security architectures, and enterprise AI automation."
+            }
+          }
+        ]
+      }
+    ]
   }
   </script>
 </head>
