@@ -1,6 +1,6 @@
 # HANI GAMAL
 **Fractional CTO | CISO Advisory | FinTech & Cloud Architecture Consultant**
-Cairo, Egypt | [hani@pm.me](mailto:hani@pm.me) | [h-any.com](https://h-any.com) | [LinkedIn](https://linkedin.com/in/hanigamal)
+Cairo, Egypt | [hani@pm.me](mailto:hani@pm.me) | [+20-111-0972072](tel:+201110972072) | [h-any.com](https://h-any.com) | [LinkedIn](https://linkedin.com/in/hanigamal)
 
 ---
 

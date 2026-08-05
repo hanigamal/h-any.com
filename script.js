@@ -288,31 +288,30 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // Resume Hub Modal Tab Switching
-  const tabExec = document.getElementById('tab-exec');
-  const tabAdvisory = document.getElementById('tab-advisory');
-  const paneExec = document.getElementById('pane-exec');
-  const paneAdvisory = document.getElementById('pane-advisory');
+  const tabs = [
+    { btn: document.getElementById('tab-master'), pane: document.getElementById('pane-master') },
+    { btn: document.getElementById('tab-exec'), pane: document.getElementById('pane-exec') },
+    { btn: document.getElementById('tab-advisory'), pane: document.getElementById('pane-advisory') }
+  ];
 
-  function switchResumeTab(activeTab, activePane, inactiveTab, inactivePane) {
-    if (!activeTab || !activePane || !inactiveTab || !inactivePane) return;
-    
-    activeTab.classList.add('active');
-    activeTab.setAttribute('aria-selected', 'true');
-    activePane.classList.add('active');
-    
-    inactiveTab.classList.remove('active');
-    inactiveTab.setAttribute('aria-selected', 'false');
-    inactivePane.classList.remove('active');
-  }
-
-  if (tabExec && tabAdvisory && paneExec && paneAdvisory) {
-    tabExec.addEventListener('click', () => {
-      switchResumeTab(tabExec, paneExec, tabAdvisory, paneAdvisory);
-    });
-
-    tabAdvisory.addEventListener('click', () => {
-      switchResumeTab(tabAdvisory, paneAdvisory, tabExec, paneExec);
-    });
-  }
+  tabs.forEach(tab => {
+    if (tab.btn && tab.pane) {
+      tab.btn.addEventListener('click', () => {
+        tabs.forEach(t => {
+          if (t.btn && t.pane) {
+            if (t.btn === tab.btn) {
+              t.btn.classList.add('active');
+              t.btn.setAttribute('aria-selected', 'true');
+              t.pane.classList.add('active');
+            } else {
+              t.btn.classList.remove('active');
+              t.btn.setAttribute('aria-selected', 'false');
+              t.pane.classList.remove('active');
+            }
+          }
+        });
+      });
+    }
+  });
 });
 
