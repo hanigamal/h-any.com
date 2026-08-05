@@ -126,6 +126,7 @@
         <li><a href="#about" class="nav-link">Philosophy</a></li>
         <li><a href="#expertise" class="nav-link">Expertise</a></li>
         <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#resume-modal" class="nav-link nav-resume-badge" id="open-resume-nav">Resume Hub 📄</a></li>
         <li><a href="#community" class="nav-link">Community</a></li>
         <li><a href="#contact" class="btn btn-secondary" style="padding: 0.5rem 1.2rem; font-size: 0.9rem;">Contact</a></li>
       </ul>
@@ -152,15 +153,15 @@
         </div>
         
         <p class="hero-desc" style="color: var(--text-secondary); margin-bottom: 2.5rem; max-width: 600px; font-size: 1.05rem;">
-          Driven by ambition to transform technology and society. Specializing in architecting resilient FinTech infrastructures, building high-transaction systems, securing enterprise clouds, and delivering secure cloud-native environments built to scale.
+          Driven by ambition to transform technology and society. Over 20 years architecting resilient FinTech infrastructures, PCI-DSS Level 1 compliant platforms, securing enterprise clouds, and delivering high-transaction environments built to scale.
         </p>
         
         <div class="hero-actions">
-          <a href="#experience" class="btn btn-primary">
-            Explore Experience
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-          </a>
-          <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+          <button class="btn btn-primary" id="open-resume-hero">
+            Executive Resumes
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+          </button>
+          <a href="#experience" class="btn btn-secondary">Explore Experience</a>
         </div>
       </div>
 
@@ -654,6 +655,51 @@
       <span>Built with HTML, CSS, and JS</span>
     </div>
   </footer>
+
+  <!-- Interactive Dual Resume Modal -->
+  <div class="modal-backdrop" id="resume-modal" aria-hidden="true">
+    <div class="glass-card resume-modal-card" role="dialog" aria-labelledby="modal-title">
+      <button class="modal-close-btn" id="close-resume-modal" aria-label="Close Modal">&times;</button>
+      
+      <div class="modal-header">
+        <span class="section-subtitle">Executive Resume Hub</span>
+        <h2 id="modal-title" class="modal-title">Select Your Engagement Focus</h2>
+        <p class="modal-desc">Choose the tailored executive profile that best aligns with your organizational needs in the Egyptian & regional market.</p>
+      </div>
+
+      <div class="resume-grid">
+        <!-- Option 1: Executive CTO / CISO -->
+        <div class="resume-card">
+          <div class="resume-badge">Full-Time Executive</div>
+          <h3 class="resume-card-title">Chief Technology Officer & CISO</h3>
+          <p class="resume-card-desc">Designed for hiring committees, boards, and CEOs seeking full-time executive leadership to scale engineering teams, achieve PCI-DSS Level 1 compliance, and govern zero-trust cybersecurity.</p>
+          <ul class="resume-features">
+            <li>✓ 20+ Years FinTech & System Architecture</li>
+            <li>✓ PCI-DSS Level 1 Audit & Certification Lead</li>
+            <li>✓ Engineering Team Leadership (40+ Engineers)</li>
+          </ul>
+          <div class="resume-card-actions">
+            <a href="Hani_Gamal_Executive_CTO_CISO_Resume.md" target="_blank" class="btn btn-primary btn-sm">View Executive Resume</a>
+          </div>
+        </div>
+
+        <!-- Option 2: Fractional CTO & Advisory -->
+        <div class="resume-card">
+          <div class="resume-badge advisory-badge">Advisory & Consulting</div>
+          <h3 class="resume-card-title">Fractional CTO & Strategic Advisor</h3>
+          <p class="resume-card-desc">Tailored for VCs, tech scale-ups, and banking institutions requiring high-impact advisory, PCI-DSS audit readiness sprints, cloud architecture refactoring, or AI workflow integration.</p>
+          <ul class="resume-features">
+            <li>✓ PCI-DSS Audit & Compliance Sprints</li>
+            <li>✓ Tech Due Diligence & Architecture Audits</li>
+            <li>✓ AI Agent & Workflow Automation Consulting</li>
+          </ul>
+          <div class="resume-card-actions">
+            <a href="Hani_Gamal_Fractional_CTO_Advisory_Resume.md" target="_blank" class="btn btn-secondary btn-sm">View Advisory Profile</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- JavaScript -->
   <script src="script.js"></script>

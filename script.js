@@ -242,5 +242,47 @@ document.addEventListener('DOMContentLoaded', () => {
         console.error('Failed to copy text: ', err);
       });
     });
+  // ==========================================================================
+  // 7. Interactive Resume Hub Modal Logic
+  // ==========================================================================
+  const modalBackdrop = document.getElementById('resume-modal');
+  const openResumeNav = document.getElementById('open-resume-nav');
+  const openResumeHero = document.getElementById('open-resume-hero');
+  const closeResumeModal = document.getElementById('close-resume-modal');
+
+  function showResumeModal(e) {
+    if (e) e.preventDefault();
+    if (modalBackdrop) {
+      modalBackdrop.classList.add('active');
+      modalBackdrop.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+    }
+  }
+
+  function hideResumeModal() {
+    if (modalBackdrop) {
+      modalBackdrop.classList.remove('active');
+      modalBackdrop.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = 'auto';
+    }
+  }
+
+  if (openResumeNav) openResumeNav.addEventListener('click', showResumeModal);
+  if (openResumeHero) openResumeHero.addEventListener('click', showResumeModal);
+  if (closeResumeModal) closeResumeModal.addEventListener('click', hideResumeModal);
+
+  if (modalBackdrop) {
+    modalBackdrop.addEventListener('click', (e) => {
+      if (e.target === modalBackdrop) {
+        hideResumeModal();
+      }
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && modalBackdrop.classList.contains('active')) {
+        hideResumeModal();
+      }
+    });
   }
 });
+
