@@ -1,0 +1,6 @@
+# User-agent configuration for search crawlers
+User-agent: *
+Allow: /
+
+# Sitemap URL
+Sitemap: https://h-any.com/sitemap.xml
