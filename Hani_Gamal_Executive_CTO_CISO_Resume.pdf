@@ -1,122 +1,171 @@
 %PDF-1.4
+%‚„œ”
 1 0 obj
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+<< /Type /Pages /Kids [3 0 R 5 0 R] /Count 2 >>
 endobj
 3 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 7 0 R /F2 8 0 R >> >> >>
 endobj
 4 0 obj
-<< /Length 5179 >>
+<< /Length 3298 >>
 stream
 BT
-/F1 10 Tf
-14 TL
 50 750 Td
-/F2 18 Tf
+/F2 16 Tf 20 TL
 (HANI GAMAL) Tj T*
-/F1 10 Tf
-(Chief Technology Officer | Chief Information Security Officer | FinTech Enterprise Architect) Tj T*
+/F1 9.5 Tf 13 TL
+(Chief Technology Officer | Chief Information Security Officer | FinTech Enterprise) Tj T*
+(Architect) Tj T*
 (Cairo, Egypt | hani@pm.me | +20-100-XXXXXXX] | [h-any.com | LinkedIn | GitHub) Tj T*
-T*
-(---) Tj T*
-T*
-T*
-/F2 13 Tf
+10 TL T*
+10 TL T*
+10 TL T*
+/F2 11 Tf 16 TL
 (EXECUTIVE PROFILE) Tj T*
-/F1 10 Tf
-(Visionary, business-aligned Technology Executive \(CTO & CISO\) with 20+ years of experience building high-throughput payment infrastructures, securing enterprise cloud environments, and driving digital transformation in the Egyptian and regional MENA financial markets.) Tj T*
-T*
-(Co-Founder of PayCore Egypt, responsible for spearheading the end-to-end technical architecture, PCI-DSS Level 1 compliance certification, and multi-cloud resilience of core payment switches. Expert in bridging complex technical execution with board-level business goals, zero-trust cybersecurity, and practical AI automation.) Tj T*
-T*
-(---) Tj T*
-T*
-T*
-/F2 13 Tf
+/F1 9.5 Tf 13 TL
+(Visionary, business-aligned Technology Executive \(CTO & CISO\) with 20+ years of) Tj T*
+(experience building high-throughput payment infrastructures, securing enterprise) Tj T*
+(cloud environments, and driving digital transformation in the Egyptian and regional) Tj T*
+(MENA financial markets.) Tj T*
+10 TL T*
+(Co-Founder of PayCore Egypt, responsible for spearheading the end-to-end technical) Tj T*
+(architecture, PCI-DSS Level 1 compliance certification, and multi-cloud resilience of) Tj T*
+(core payment switches. Expert in bridging complex technical execution with board-) Tj T*
+(level business goals, zero-trust cybersecurity, and practical AI automation.) Tj T*
+10 TL T*
+10 TL T*
+10 TL T*
+/F2 11 Tf 16 TL
 (CORE COMPETENCIES & DOMAIN EXPERTISE) Tj T*
-/F1 10 Tf
-T*
-(- Executive & Technology Leadership: Technical Strategy, Board & Regulatory Advisory, Team Engineering \(50+ Engineers\), P&L Oversight, Tech Co-Founder.) Tj T*
-(- FinTech & Payment Architecture: ISO 8583, EMV Chip & Contactless, High-Frequency Switch Engines, POS & Merchant Acquiring, Digital Wallets, Real-time Fraud Detection.) Tj T*
-(- Cybersecurity & Compliance: PCI-DSS Level 1 Audit & Certification, CISO Governance, Zero-Trust Architecture, Penetration Testing, SOC Operations, ISO 27001.) Tj T*
-(- Cloud-Native & Distributed Systems: AWS/GCP/Azure Multi-Cloud Redundancy, Kubernetes, Microservices, Low-Latency C++/Go/Node.js backend architectures.) Tj T*
-(- AI & Automation Utility: Customizing LLM pipelines, autonomous agent workflows, and predictive analytics for FinTech automation.) Tj T*
-T*
-(---) Tj T*
-T*
-T*
-/F2 13 Tf
+/F1 9.5 Tf 13 TL
+10 TL T*
+(- Executive & Technology Leadership: Technical Strategy, Board & Regulatory Advisory,) Tj T*
+(Team Engineering \(50+ Engineers\), P&L Oversight, Tech Co-Founder.) Tj T*
+(- FinTech & Payment Architecture: ISO 8583, EMV Chip & Contactless, High-Frequency) Tj T*
+(Switch Engines, POS & Merchant Acquiring, Digital Wallets, Real-time Fraud Detection.) Tj T*
+(- Cybersecurity & Compliance: PCI-DSS Level 1 Audit & Certification, CISO Governance,) Tj T*
+(Zero-Trust Architecture, Penetration Testing, SOC Operations, ISO 27001.) Tj T*
+(- Cloud-Native & Distributed Systems: AWS/GCP/Azure Multi-Cloud Redundancy,) Tj T*
+(Kubernetes, Microservices, Low-Latency C++/Go/Node.js backend architectures.) Tj T*
+(- AI & Automation Utility: Customizing LLM pipelines, autonomous agent workflows, and) Tj T*
+(predictive analytics for FinTech automation.) Tj T*
+10 TL T*
+10 TL T*
+10 TL T*
+/F2 11 Tf 16 TL
 (PROFESSIONAL EXPERIENCE) Tj T*
-/F1 10 Tf
-T*
-/F2 11 Tf
-(**PayCore Egypt** ? Cairo, Egypt) Tj T*
-/F1 10 Tf
-(Co-Founder, Chief Technology Officer \(CTO\) & Chief Information Security Officer \(CISO\) | 2018 ? Present) Tj T*
-(Pioneered the core engineering and security foundation for PayCore Egypt, establishing it as a key payment service provider in the region.) Tj T*
-(- FinTech Scale: Architected and deployed high-availability payment switches capable of processing millions of daily transactions with 99.999% uptime.) Tj T*
-(- PCI-DSS Level 1 Certification: Led the organization to achieve and maintain strict PCI-DSS Level 1 compliance certification across hybrid cloud and on-premise infrastructure.) Tj T*
-(- Cybersecurity Leadership: Established the enterprise CISO framework, zero-trust network policies, SOC monitoring, and automated incident response strategies.) Tj T*
-(- Team Growth: Built and mentored a top-tier cross-functional engineering team of 40+ software architects, DevOps engineers, and security specialists.) Tj T*
-(- AI Integration: Introduced AI-driven transaction monitoring and anomaly detection, reducing fraudulent payment attempts by 35%.) Tj T*
-T*
-/F2 11 Tf
-(**Enterprise FinTech & Security Advisory** ? MENA Region) Tj T*
-/F1 10 Tf
-(Principal System Architect & Security Consultant | 2012 ? 2018) Tj T*
-(Advised commercial banks, payment processors, and tech scale-ups across Egypt and the Gulf on modernizing legacy infrastructure.) Tj T*
-(- Directed cloud migration strategies for legacy financial systems, transitioning monoliths to cloud-native microservices on AWS and Azure.) Tj T*
-(- Conducted full-scope security audits, vulnerability assessments, and regulatory alignment for regional financial institutions.) Tj T*
-(- Designed low-latency API gateways enabling open banking integrations and seamless third-party PSP connections.) Tj T*
-T*
-/F2 11 Tf
-(**Senior Infrastructure & Security Engineer** ? Regional Tech Ventures) Tj T*
-/F1 10 Tf
-(Lead Infrastructure Engineer | 2004 ? 2012) Tj T*
-(- Managed enterprise Linux/Unix server fleets, database clusters \(PostgreSQL, Oracle\), and core network backbones.) Tj T*
-(- Implemented high-frequency transaction logging, automated backup redundancies, and disaster recovery sites.) Tj T*
-T*
-(---) Tj T*
-T*
-T*
-/F2 13 Tf
+/F1 9.5 Tf 13 TL
+10 TL T*
+/F2 10 Tf 14 TL
+(**PayCore Egypt**  Cairo, Egypt) Tj T*
+/F1 9.5 Tf 13 TL
+(Co-Founder, Chief Technology Officer \(CTO\) & Chief Information Security Officer) Tj T*
+(\(CISO\) | 2018  Present) Tj T*
+(Pioneered the core engineering and security foundation for PayCore Egypt,) Tj T*
+(establishing it as a key payment service provider in the region.) Tj T*
+(- FinTech Scale: Architected and deployed high-availability payment switches capable) Tj T*
+(of processing millions of daily transactions with 99.999% uptime.) Tj T*
+(- PCI-DSS Level 1 Certification: Led the organization to achieve and maintain strict) Tj T*
+(PCI-DSS Level 1 compliance certification across hybrid cloud and on-premise) Tj T*
+(infrastructure.) Tj T*
+(- Cybersecurity Leadership: Established the enterprise CISO framework, zero-trust) Tj T*
+(network policies, SOC monitoring, and automated incident response strategies.) Tj T*
+(- Team Growth: Built and mentored a top-tier cross-functional engineering team of 40+) Tj T*
+(software architects, DevOps engineers, and security specialists.) Tj T*
+(- AI Integration: Introduced AI-driven transaction monitoring and anomaly detection,) Tj T*
+(reducing fraudulent payment attempts by 35%.) Tj T*
+10 TL T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 6 0 R /Resources << /Font << /F1 7 0 R /F2 8 0 R >> >> >>
+endobj
+6 0 obj
+<< /Length 2311 >>
+stream
+BT
+50 750 Td
+/F2 10 Tf 14 TL
+(**Enterprise FinTech & Security Advisory**  MENA Region) Tj T*
+/F1 9.5 Tf 13 TL
+(Principal System Architect & Security Consultant | 2012  2018) Tj T*
+(Advised commercial banks, payment processors, and tech scale-ups across Egypt and the) Tj T*
+(Gulf on modernizing legacy infrastructure.) Tj T*
+(- Directed cloud migration strategies for legacy financial systems, transitioning) Tj T*
+(monoliths to cloud-native microservices on AWS and Azure.) Tj T*
+(- Conducted full-scope security audits, vulnerability assessments, and regulatory) Tj T*
+(alignment for regional financial institutions.) Tj T*
+(- Designed low-latency API gateways enabling open banking integrations and seamless) Tj T*
+(third-party PSP connections.) Tj T*
+10 TL T*
+/F2 10 Tf 14 TL
+(**Senior Infrastructure & Security Engineer**  Regional Tech Ventures) Tj T*
+/F1 9.5 Tf 13 TL
+(Lead Infrastructure Engineer | 2004  2012) Tj T*
+(- Managed enterprise Linux/Unix server fleets, database clusters \(PostgreSQL,) Tj T*
+(Oracle\), and core network backbones.) Tj T*
+(- Implemented high-frequency transaction logging, automated backup redundancies, and) Tj T*
+(disaster recovery sites.) Tj T*
+10 TL T*
+10 TL T*
+10 TL T*
+/F2 11 Tf 16 TL
 (KEY ACHIEVEMENTS & IMPACT) Tj T*
-/F1 10 Tf
-T*
-(- ? Zero-Breach Track Record: Maintained 100% security integrity across 20+ years of managing sensitive financial data.) Tj T*
-(- ? High Concurrency: Built architectures processing microsecond-level payment transactions under peak market loads.) Tj T*
-(- ?? Regulatory Mastery: Deep working knowledge of Central Bank of Egypt \(CBE\) regulations, NTRA standards, and international security protocols.) Tj T*
-T*
-(---) Tj T*
-T*
-T*
-/F2 13 Tf
+/F1 9.5 Tf 13 TL
+10 TL T*
+(-  Zero-Breach Track Record: Maintained 100% security integrity across 20+ years of) Tj T*
+(managing sensitive financial data.) Tj T*
+(-  High Concurrency: Built architectures processing microsecond-level payment) Tj T*
+(transactions under peak market loads.) Tj T*
+(-  Regulatory Mastery: Deep working knowledge of Central Bank of Egypt \(CBE\)) Tj T*
+(regulations, NTRA standards, and international security protocols.) Tj T*
+10 TL T*
+10 TL T*
+10 TL T*
+/F2 11 Tf 16 TL
 (EDUCATION & CREDENTIALS) Tj T*
-/F1 10 Tf
-T*
+/F1 9.5 Tf 13 TL
+10 TL T*
 (- B.Sc. in Computer Science / System Engineering) Tj T*
 (- Continuous Industry Certifications & Training:) Tj T*
 (- Executive Leadership & Strategic Management) Tj T*
 (- PCI-DSS Qualified Security Professional Alignment) Tj T*
 (- Cloud Solutions Architect Professional \(AWS / GCP\)) Tj T*
 (- Information Security & CISSP Alignment) Tj T*
-T*
-(---) Tj T*
-T*
-T*
-/F2 13 Tf
+10 TL T*
+10 TL T*
+10 TL T*
+/F2 11 Tf 16 TL
 (LANGUAGES) Tj T*
-/F1 10 Tf
+/F1 9.5 Tf 13 TL
 (- Arabic: Native) Tj T*
 (- English: Full Professional Proficiency) Tj T*
 ET
 endstream
 endobj
-5 0 obj
+7 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
 endobj
-6 0 obj
+8 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
 endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000127 00000 n 
+0000000263 00000 n 
+0000003613 00000 n 
+0000003749 00000 n 
+0000006112 00000 n 
+0000006182 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+6257
+%%EOF
