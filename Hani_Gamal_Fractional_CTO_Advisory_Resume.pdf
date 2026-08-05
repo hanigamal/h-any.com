@@ -1,0 +1,107 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 3699 >>
+stream
+BT
+/F1 10 Tf
+14 TL
+50 750 Td
+/F2 18 Tf
+(HANI GAMAL) Tj T*
+/F1 10 Tf
+(Fractional CTO | CISO Advisory | FinTech & Cloud Architecture Consultant) Tj T*
+(Cairo, Egypt | hani@pm.me | h-any.com | LinkedIn) Tj T*
+T*
+(---) Tj T*
+T*
+T*
+/F2 13 Tf
+(ADVISORY OVERVIEW) Tj T*
+/F1 10 Tf
+(High-impact Fractional CTO & Strategic Security Advisor with 20+ years of battle-tested experience in FinTech, PCI-DSS compliance, and zero-trust cybersecurity.) Tj T*
+T*
+(Co-Founder and CTO/CISO of PayCore Egypt, providing high-growth startups, scale-ups, banks, and venture funds with expert technical guidance, emergency security remediation, and high-ROI architectural leadership without the cost of a full-time executive headcount.) Tj T*
+T*
+(---) Tj T*
+T*
+T*
+/F2 13 Tf
+(ADVISORY & CONSULTING SERVICES) Tj T*
+/F1 10 Tf
+T*
+/F2 11 Tf
+(1. **PCI-DSS Level 1 Audit & Certification Readiness**) Tj T*
+/F1 10 Tf
+(- End-to-end evaluation of payment pipelines, network segmentation, encryption \(HSM/KMS\), and tokenization.) Tj T*
+(- Remediation strategy guaranteeing successful QSA audit passes with zero critical findings.) Tj T*
+T*
+/F2 11 Tf
+(2. **Fractional CTO Leadership & Technical Due Diligence**) Tj T*
+/F1 10 Tf
+(- Interim technical leadership for startups preparing for Series A/B funding or major platform launches.) Tj T*
+(- Vendor evaluation, code & architecture review for VCs and Private Equity firms evaluating tech acquisitions.) Tj T*
+T*
+/F2 11 Tf
+(3. **CISO Governance & Incident Response Planning**) Tj T*
+/F1 10 Tf
+(- Designing enterprise cybersecurity policies aligned with CBE, NTRA, and ISO 27001 standards.) Tj T*
+(- Penetration testing oversight, threat modeling, and rapid incident response orchestration.) Tj T*
+T*
+/F2 11 Tf
+(4. **Modern Cloud-Native & AI Workflow Transformation**) Tj T*
+/F1 10 Tf
+(- Migrating fragile legacy setups to resilient, multi-cloud Kubernetes architectures \(AWS, GCP, Azure\).) Tj T*
+(- Integrating practical AI agents, autonomous workflow automation, and LLM pipelines into enterprise operations.) Tj T*
+T*
+(---) Tj T*
+T*
+T*
+/F2 13 Tf
+(REPRESENTATIVE ENGAGEMENTS & TRACK RECORD) Tj T*
+/F1 10 Tf
+T*
+(- ? PayCore Egypt: Co-founded and architected the full payment switch ecosystem; achieved PCI-DSS Level 1 certification and maintained 99.999% uptime.) Tj T*
+(- ? Regional Payment Processors: Designed low-latency ISO 8583 payment gateways and merchant portal microservices handling high-volume daily transactions.) Tj T*
+(- ? FinTech Risk Mitigation: Executed zero-trust infrastructure refactoring for high-growth Middle Eastern startups, eliminating critical vulnerabilities prior to regulatory submission.) Tj T*
+(- ? AI Enterprise Automation: Implemented customized AI agent systems for operational workflow automation and automated threat intelligence monitoring.) Tj T*
+T*
+(---) Tj T*
+T*
+T*
+/F2 13 Tf
+(WHY WORK WITH HANI GAMAL?) Tj T*
+/F1 10 Tf
+T*
+(- ? Immediate High ROI: Instant access to 20+ years of executive wisdom with zero onboarding delay.) Tj T*
+(- ?? Risk Reduction: Protect your enterprise from regulatory fines, data breaches, and costly architectural mistakes.) Tj T*
+(- ? Pragmatic & Execution-Focused: No theoretical fluff?delivering clean, working systems and bulletproof compliance.) Tj T*
+T*
+(---) Tj T*
+T*
+T*
+/F2 13 Tf
+(ENGAGEMENT MODELS) Tj T*
+/F1 10 Tf
+(- Fractional CTO / CISO Retainer: \(10 ? 20 hours/week dedicated leadership\)) Tj T*
+(- PCI-DSS Audit & Remediation Sprint: \(Fixed-scope 4-to-6 week audit readiness\)) Tj T*
+(- Technical Advisory & Board Membership: \(Strategic quarterly guidance & tech due diligence\)) Tj T*
+T*
+(Ready to secure your architecture or scale your FinTech platform? Contact directly at hani@pm.me.) Tj T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
